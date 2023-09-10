@@ -1,0 +1,61 @@
+@keyframes rotating{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes twirl {
+    from{
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes entrance {
+    from {
+        transform: scale(50);
+        box-shadow: rgba(233, 37, 35, .25) .5rem .5rem 1.5rem;
+    }
+    to {
+        transform: scale(1);
+        box-shadow: rgba(233, 37, 35, .75) .5rem .5rem 1.5rem;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes animateWord {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
