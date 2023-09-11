@@ -13,7 +13,6 @@
 .navbar a:hover{
     color: #121212;
     text-shadow: #f2f2f2 .1rem .1rem .25rem;
-
 }
 
 div.sidebar:hover{
@@ -22,8 +21,9 @@ div.sidebar:hover{
 }
 
 div.sidebar a:hover{
-    color: #121212;
+    /* color: #121212; */
     filter: none;
+
 }
 
 div.details .col-1:hover, div.details .col-2:hover, div.details .col-3:hover{
