@@ -2,7 +2,7 @@
     animation: fadeIn 5s ease-in-out;
   }
   
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
     body{
       filter: invert();
       /* background */
@@ -42,7 +42,7 @@
     /* display--settings */
     position: fixed;
     z-index: 999;
-    bottom: 0; /* Adjusted to stay at the bottom */
+    bottom: 05%; /* Adjusted to stay at the bottom */
     left: 50%;
     transform: translateX(-50%); /* Adjusted for horizontal centering */
   
@@ -252,7 +252,8 @@
    footer {
     margin: 1rem;
   
-    a{
+    a {
+      padding: 2rem;
       img {
   
         /* display */
