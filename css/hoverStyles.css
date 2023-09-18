@@ -22,7 +22,7 @@ div.sidebar:hover{
 
 div.sidebar a:hover{
     /* color: #121212; */
-    filter: none;
+    filter: drop-shadow(.25rem .25rem #121212);
 
 }
 
