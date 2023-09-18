@@ -74,25 +74,23 @@
   
     opacity: 50%;
     /* inner image control */
-    img{
+    /* img{
       display: inline;
       float: inline-start;
       width: 20%;
       padding-right: 0.25rem;
-    }
+    } */
    }
   
    div.navbar a, div.sidebar a{
       padding: 1rem;
       display: block;
     
-      text-align: center;
       text-decoration: none;
       white-space: nowrap;    
    }
   
    div.sidebar a{
-    filter: invert();
     color: #f2f2f2;
     font-weight: 600;
   
@@ -253,7 +251,11 @@
     margin: 1rem;
   
     a {
+      display: inline;
       padding: 2rem;
+      float: inline-end;
+      
+      color: #f2f2f2;
       img {
   
         /* display */
@@ -265,6 +267,12 @@
         filter: invert();
       }
     }
+   }
+
+   .fa {
+    padding: 0 1rem;
+    display: inline;
+    float: inline-start;
    }
   
    /* -other-elems */
