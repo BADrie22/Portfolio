@@ -182,16 +182,19 @@
   
     margin: 1%;
     padding: 1rem;
-    min-width: 50%;
+    
+    width: fit-content;
   
     /* decor */
     background-color: rgba(18, 18, 18, 0.5);
     border-radius: 1rem;
-   }
-    div.about_section .sec-col{
-      min-width: fit-content;
+    .scrollable{
+      height: 25vh;
+      width: fit-content;
       overflow: scroll;
+
     }
+   }
   
    #name {
      border-radius: 1rem;
@@ -226,6 +229,7 @@
    #abt_contents , .mca {
     padding: 1rem;
     border-radius: 1rem;
+    margin: 1rem;
   
     font-size: 125%;
     font-weight: 100;
