@@ -27,11 +27,26 @@
 }
 
 @keyframes fadeIn {
-    from{
-        opacity: 0%;
+    0% {
+        opacity: 0.5;
     }
-    to {
-        opacity: 100%;
+    50% {
+        opacity: 1;
+    } 
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes shadow_drop {
+    0% {
+        filter: none;
+    }
+    50% {
+        filter: drop-shadow(0 0 1.5rem rgb(233, 37, 35));
+    } 
+    100% {
+        filter: none;
     }
 }
 @keyframes animateWord {
