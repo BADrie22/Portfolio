@@ -1,5 +1,6 @@
 :root{
     animation: fadeIn 5s ease-in-out;
+    scroll-behavior: smooth;
   }
   
 @media (prefers-color-scheme: light) {
@@ -42,20 +43,29 @@
       /* display--settings */
       position: fixed;
       z-index: 999;
-      bottom: 5%; /* Adjusted to stay at the bottom */
+      bottom: 7.5%; /* Adjusted to stay at the bottom */
       left: 50%;
       transform: translateX(-50%); /* Adjusted for horizontal centering */
     
       display: flex;
+      flex-direction: row;
     
       /* colors and etc etc */
       background-color: rgba(51, 51, 51, 0.5);
       a {
         color: #f2f2f2;
+        text-transform: uppercase;
+        font-weight: bolder;
       }
       border: 2px solid rgba(233, 37, 35, 0.75);
       border-radius: 2rem;
       max-width: fit-content;
+
+      .subnav {
+        display: none;
+        /* display: flex; */
+        flex-direction: row;
+      }
     }  
   
    /* social--handles */
@@ -263,8 +273,10 @@
     a {
       float: inline-end;
       color: #f2f2f2;
+
+      text-decoration: none;
+
       img {
-  
         /* display */
         vertical-align: top;
         max-width: 2.5%;
